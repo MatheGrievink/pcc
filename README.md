@@ -5,7 +5,7 @@ Deze repository is aangemaakt voor het leren van Python door middel van het boek
 # Cheatsheet
 Hier doccumenteer ik shortcuts van alle dingen die ik heb geleerd in de verschillende hoofdstukken.
 
-## Chapter 1
+## Chapter 1 - Getting Started
 |Functie|Uitleg|
 |---|---|
 |print()|Laat tekst op het scherm zien|
