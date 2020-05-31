@@ -6,9 +6,9 @@ This repository was created for learning Python with the book Python Crash Courc
 This is my documentation for the stuff I learned in the chapters.
 
 ## Chapter 1 - Getting started
-| Function | Explanation |
-|---|---|
-| print() | Show output on screen |
+| Function | Explanation | Example |
+|---|---|---|
+| print() | Show output on screen | print("Hello World!")
 
 
 ## Chapter 2 - Variables and simple data types
@@ -29,21 +29,21 @@ This is my documentation for the stuff I learned in the chapters.
 | #Comment | Add a comment which is ignored by Python. | #This is a commment |
 
 ## Chapter 3 - Introducing Lists
-| Function | Explanation |
-|---|---|
+| Function | Explanation | Example |
+|---|---|---|
 | bicycles = ['trek', 'cannondale'] | A list, |
 
 ## Chapter 4
-| Function | Explanation |
-|---|---|
+| Function | Explanation | Example |
+|---|---|---|
 |||
 
 ## Chapter 5
-| Function | Explanation |
-|---|---|
+| Function | Explanation | Example |
+|---|---|---|
 |||
 
 ## Chapter 6
-| Function | Explanation |
-|---|---|
+| Function | Explanation | Example |
+|---|---|---|
 |||
