@@ -54,6 +54,3 @@ This is my documentation for the stuff I learned in the chapters.
 | Function | Explanation | Example |
 |---|---|---|
 |||
-
-
-hi
