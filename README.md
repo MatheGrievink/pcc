@@ -18,7 +18,7 @@ This is my documentation for the stuff I learned in the chapters.
 | variable.title() | Print first letter of every word with a Captial. | " Hello " |
 | variable.upper() | Print all words in UPPERCASE. | " HELLO " |
 | variable.lower() | Print all words in lowercase. | " hello " |
-| print(f"") | Format-String: print the literal output (With variables). | print(f"{message}, Mathé!") |
+| print(f"") | Format-String: print the literal output (with variables). | print(f"{message}, Mathé!") |
 | variable.rstrip() | Delete whitespace after string. | " hello" |
 | variable.lstrip() | Delete whitespace before string. | "hello "|
 | variable.strip() | Delete whitespace from string. | "hello" |
@@ -46,17 +46,17 @@ This is my documentation for the stuff I learned in the chapters.
 | list.reverse() | Reverse a list. To get the original, just do another reverse. | mountainbikes.reverse() |
 | len(list) | Print the number of elements in a list. | len(mountainbikes) |
 
-## Chapter 4
+## Chapter 4 - Working with lists
 | Function | Explanation | Example |
 |---|---|---|
 |||
 
-## Chapter 5
+## Chapter 5 - If statements
 | Function | Explanation | Example |
 |---|---|---|
 |||
 
-## Chapter 6
+## Chapter 6 - Dictonaries
 | Function | Explanation | Example |
 |---|---|---|
 |||
