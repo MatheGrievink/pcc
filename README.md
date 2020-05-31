@@ -68,7 +68,13 @@ This is my documentation for the stuff I learned in the chapters.
 ## Chapter 5 - If statements
 | Function | Explanation | Example |
 |---|---|---|
-|||
+| == != < <= > >= | Equal, not equal, less, less or equal, greater than, greater or equal | 'audi' == 'audi', 'bmw' != 'audi', 19 < 21, 19 <= 21, 21 > 19, 21 >= 19 |
+| And, or | Checking multiple conditions. With and both comparisions must match for true, for OR just 1 comparison | 20 > 21 and 20 < 22,  22 > 21 or 20 < 22 |
+| In, not in | Check if a value is in a list or not | 'cannondale' in mountainbikes, 'gazelle' not in mountainbikes |
+| if *conditional test*: <br />&nbsp; *do something* | If a conditional value returns true, do code. | if 1 = 1 : <br />&nbsp; print("hello")
+| if *conditional test*: <br />&nbsp; *do something* <br> else: <br />&nbsp; *other code* | If a conditional value returns true, do code. Else, do other code | if 1 = 1 : <br />&nbsp; print("hello") <br> else: <br />&nbsp; *print("bye")* |
+| if *conditional test*: <br />&nbsp; *do something* <br> elif *conditional test*: <br />&nbsp; *do something* <br> else: <br />&nbsp; *other code* | If a conditional value returns true, do code. Elif other match: do code. Else, do other code. You can have multiple elif. | if 1 = 1 : <br />&nbsp; print("good morning") <br> elif 2 - 1 = 1: <br />&nbsp; print("good afternoon") <br> else: <br />&nbsp; print("good evening") |
+
 
 ## Chapter 6 - Dictonaries
 | Function | Explanation | Example |
