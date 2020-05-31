@@ -45,11 +45,25 @@ This is my documentation for the stuff I learned in the chapters.
 | sorted(list, reverse=True)) | Sort a list temporarily reverse alphabetically. | sorted(mountainbikes, reverse=True))  |
 | list.reverse() | Reverse a list. To get the original, just do another reverse. | mountainbikes.reverse() |
 | len(list) | Print the number of elements in a list. | len(mountainbikes) |
+| list[-1] | Get the last element in a list. -2 gets the second to last element | mountainbikes[-1]
 
 ## Chapter 4 - Working with lists
 | Function | Explanation | Example |
 |---|---|---|
-|||
+| for element in list: <br />&nbsp; print(element) | Print every element in a list | for element in list: <br />&nbsp; print(element) |
+| print(1,5,1) | Make a quick list of numbers. This starts with 1 and ends after 4, with step of 1 | print(1,11,2) #Even numbers 2,3,6,8,10 |
+| list = list(range(1,6)) | Quickly create a list with the numbers 1,2,3,4,5 | numbers = numbers(range(1,6)) |
+| min(list) | Get the minimium value in a list | min(digits) |
+| max(list) | Get the maximum value in a list | max(digits) |
+| sum(list) | Get the sum value in a list | sum(digits) |
+| list = [value**2 for value in range (1,11)] | Create a list for all squares for the numbers 1 until 10 | squares = [value**2 for value in range (1,11)] |
+| list[1:2] | Get the 2nd and 3rd element in a list (index starts at 0) | players[1:2] |
+| list[:3] | Get the elements until 4th in a list (index starts at 0) | players[:3] |
+| list[3:] | Get the elements after the 4th in a list (index starts at 0) | players[3:] |
+| list[-3:] | Get the last elements 3 in a list (index starts at 0) | players[-3:] |
+| new_list = list[:] | Copy a list | friends_food = my_food[:] |
+| tuple = (1, 2) | Create a tulpe. A tuple can't be directly changed. | dimensions = (200, 50) |
+| tuple = (2, 1) | Assign new values to the tuple, you have to devine the entire tuple. | dimensions(400, 100) |
 
 ## Chapter 5 - If statements
 | Function | Explanation | Example |
