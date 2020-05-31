@@ -12,26 +12,26 @@ This is my documentation for the stuff I learned in the chapters.
 
 
 ## Chapter 2 - Variables and simple data types
-| Function | Explanation |
-|---|---|
-| message = "Hello!" | Assign "Hello!" to the variable message. |
-| .title() | Print first letter of every word with a Captial. |
-| .upper() | Print all words in UPPERCASE. |
-| .lower() | Print all words in lowercase. |
-| print(f"") | Format-String: print the literal output (With variables). |
-| .rstrip() | Delete whitespace after string. |
-| .lstrip() | Delete whitespace before string. |
-| .strip() | Delete whitespace from string. |
-| + - * / ** | Add, subtract, multiply, devide and exponent. |
-| 2 2.0 | Integer and floats. |
-| x,y,z = 0,0,0 | Assign multiple variables in 1 line. |
-| CONSTANT = 1 | Constant,  a variable but should not be changed in a program. |
-| #Comment | Add a comment which is ignored by Python. | 
+| Function | Explanation | Example |
+|---|---|---|
+| variable = "" | Assign "hello" to the variable message. | message = " hello" |
+| variable.title() | Print first letter of every word with a Captial. | " Hello " |
+| variable.upper() | Print all words in UPPERCASE. | " HELLO " |
+| variable.lower() | Print all words in lowercase. | " hello " |
+| print(f"") | Format-String: print the literal output (With variables). | print(f"{message}, Mathé!") |
+| variable.rstrip() | Delete whitespace after string. | " hello" |
+| variable.lstrip() | Delete whitespace before string. | "hello "|
+| variable.strip() | Delete whitespace from string. | "hello" |
+| + - * / ** | Add, subtract, multiply, devide and exponent. | 2 + 2, 2 - 2, 2 * 2, 2 / 2, 2 ** 2|
+| 2 2.0 | Integer and floats. | Devide is always float |
+| x,y,z = 0,0,0 | Assign multiple variables in 1 line. | first,second,third = 1,2,3 |
+| CONSTANT = 1 | Constant,  a variable but should not be changed in a program. | MAX_USERS = 2 |
+| #Comment | Add a comment which is ignored by Python. | #This is a commment |
 
-## Chapter 3
+## Chapter 3 - Introducing Lists
 | Function | Explanation |
 |---|---|
-|||
+| bicycles = ['trek', 'cannondale'] | A list, |
 
 ## Chapter 4
 | Function | Explanation |
