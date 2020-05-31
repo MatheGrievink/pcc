@@ -31,7 +31,14 @@ This is my documentation for the stuff I learned in the chapters.
 ## Chapter 3 - Introducing Lists
 | Function | Explanation | Example |
 |---|---|---|
-| bicycles = ['trek', 'cannondale'] | A list, |
+| list = ['', ''] | A list of things. Things can be added, modified or deleted. | mountainbikes = ['cannondale', 'trek'] |
+| print(list[0]) | Access an element in a list, count starts from 0. | print([0]) (output: cannondale) |
+| list[0] = '' | Modify an element in a list | mountainbikes[1] = 'rockrider' |
+| list.append('') | Add an element to the end of a list | mountainbikes.append('rockrider') |
+| list.insert(0, '') | Insert an element to a position in list. Doesn't change existing elements | mountainbikes.insert(0, 'rockrider') |
+| del list[0] | Delete element from list. Element can no longer be used. | del mountainbike[1] |
+| popped_list = list.pop(0) | Pop (remove) an element from list (and assign to variable). If no position is defined, the last value is popped | popped_mountainbike = mountainbikes.pop(1) |
+| list.remove('') | Same as pop, but now with a specific value | mountainbikes.remove('trek') |
 
 ## Chapter 4
 | Function | Explanation | Example |
