@@ -39,6 +39,12 @@ This is my documentation for the stuff I learned in the chapters.
 | del list[0] | Delete element from list. Element can no longer be used. | del mountainbike[1] |
 | popped_list = list.pop(0) | Pop (remove) an element from list (and assign to variable). If no position is defined, the last value is popped | popped_mountainbike = mountainbikes.pop(1) |
 | list.remove('') | Same as pop, but now with a specific value | mountainbikes.remove('trek') |
+| list.sort() | Sort a list permantly alphabetically. | mountainbikes.sort() |
+| list.sort(reverse=True) | Sort a list permantly reverse alphabetically. | mountainbikes.sort(reverse=True) |
+| sorted(list) | Sort a list temporarily alphabetically. | sorted(mountainbikes)|
+| sorted(list, reverse=True)) | Sort a list temporarily reverse alphabetically. | sorted(mountainbikes, reverse=True))  |
+| list.reverse() | Reverse a list. To get the original, just do another reverse. | mountainbikes.reverse() |
+| len(list) | Print the number of elements in a list. | len(mountainbikes) |
 
 ## Chapter 4
 | Function | Explanation | Example |
