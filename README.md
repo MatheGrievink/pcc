@@ -74,7 +74,7 @@ This is my documentation for the stuff I learned in the chapters.
 | if *conditional test*: <br />&nbsp; *do something* | If a conditional value returns true, do code. If you want 1 block of code to run, use elif. Otherwise, use an if.| if 1 = 1 : <br />&nbsp; print("hello")
 | if *conditional test*: <br />&nbsp; *do something* <br> else: <br />&nbsp; *other code* | If a conditional value returns true, do code. Else, do other code | if 1 = 1 : <br />&nbsp; print("hello") <br> else: <br />&nbsp; *print("bye")* |
 | if *conditional test*: <br />&nbsp; *do something* <br> elif *conditional test*: <br />&nbsp; *do something* <br> else: <br />&nbsp; *other code* | If a conditional value returns true, do code. Elif other match: do code. Else, do other code. You can have multiple elif. | if variable = 1 : <br />&nbsp; print("good morning") <br> elif variable = 2: <br />&nbsp; print("good afternoon") <br> else: <br />&nbsp; print("good evening")|
-| list = [] <br /><br /> if list: <br />&nbsp; *if list has items* <br> else: <br />&nbsp; *if list has no items* | Check if a list has items. | list = [] <br /><br /> if requested_toppings: <br />&nbsp; *add toppings* <br> else: <br />&nbsp; *there are no toppings selected* |
+| list = [] <br /><br /> if list: <br />&nbsp; *if list has items* <br> else: <br />&nbsp; *if list has no items* | Check if a list has items. | requested_toppings = [] <br /><br /> if requested_toppings: <br />&nbsp; *add toppings* <br> else: <br />&nbsp; *there are no toppings selected* |
 
 
 ## Chapter 6 - Dictonaries
