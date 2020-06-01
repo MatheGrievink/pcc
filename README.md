@@ -71,9 +71,10 @@ This is my documentation for the stuff I learned in the chapters.
 | == != < <= > >= | Equal, not equal, less, less or equal, greater than, greater or equal | 'audi' == 'audi', 'bmw' != 'audi', 19 < 21, 19 <= 21, 21 > 19, 21 >= 19 |
 | And, or | Checking multiple conditions. With and both comparisions must match for true, for OR just 1 comparison | 20 > 21 and 20 < 22,  22 > 21 or 20 < 22 |
 | In, not in | Check if a value is in a list or not | 'cannondale' in mountainbikes, 'gazelle' not in mountainbikes |
-| if *conditional test*: <br />&nbsp; *do something* | If a conditional value returns true, do code. | if 1 = 1 : <br />&nbsp; print("hello")
+| if *conditional test*: <br />&nbsp; *do something* | If a conditional value returns true, do code. If you want 1 block of code to run, use elif. Otherwise, use an if.| if 1 = 1 : <br />&nbsp; print("hello")
 | if *conditional test*: <br />&nbsp; *do something* <br> else: <br />&nbsp; *other code* | If a conditional value returns true, do code. Else, do other code | if 1 = 1 : <br />&nbsp; print("hello") <br> else: <br />&nbsp; *print("bye")* |
-| if *conditional test*: <br />&nbsp; *do something* <br> elif *conditional test*: <br />&nbsp; *do something* <br> else: <br />&nbsp; *other code* | If a conditional value returns true, do code. Elif other match: do code. Else, do other code. You can have multiple elif. | if 1 = 1 : <br />&nbsp; print("good morning") <br> elif 2 - 1 = 1: <br />&nbsp; print("good afternoon") <br> else: <br />&nbsp; print("good evening") |
+| if *conditional test*: <br />&nbsp; *do something* <br> elif *conditional test*: <br />&nbsp; *do something* <br> else: <br />&nbsp; *other code* | If a conditional value returns true, do code. Elif other match: do code. Else, do other code. You can have multiple elif. | if variable = 1 : <br />&nbsp; print("good morning") <br> elif variable = 2: <br />&nbsp; print("good afternoon") <br> else: <br />&nbsp; print("good evening")|
+| list = [] <br /><br /> if list: <br />&nbsp; *if list has items* <br> else: <br />&nbsp; *if list has no items* | Check if a list has items. | list = [] <br /><br /> if requested_toppings: <br />&nbsp; *add toppings* <br> else: <br />&nbsp; *there are no toppings selected* |
 
 
 ## Chapter 6 - Dictonaries
