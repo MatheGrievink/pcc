@@ -86,4 +86,8 @@ This is my documentation for the stuff I learned in the chapters.
 | dictionary['key3] = 'value4' | Modify a value of a specific key | alien['color'] = 'yellow' |
 | del dictionary['key3'] | Permantently delete a key-value pair | del alien['speed'] |
 | print(dictionary.get('key5', 'No value assigned')) | Print the value of a key. If it does not exist, display 'No value assigned'. | print(alien.get('height', 'Height is not set'))
-| for key, value in dictionary.items()<br />&nbsp;print(f"\nKey: {key}")<br />&nbsp;print(f"\nValue: {value}") | Loop through al key-value pairs of a dictionary. for key, value in alien.items()<br />&nbsp;print(f"\nKey: {key}")<br />&nbsp;print(f"\nValue: {value}") |
+| for key, value in dictionary.items():<br />&nbsp;print(f"\nKey: {key}")<br />&nbsp;print(f"\nValue: {value}") | Loop through all key-value pairs of a dictionary. | for key, value in alien.items():<br />&nbsp;print(f"\nKey: {key}")<br />&nbsp;print(f"\nValue: {value}") |
+| for key in dictionary.keys():<br />&nbsp;print(key) | Loop through all keys in a dictionary | for key in alien.keys():<br />&nbsp;print(key) |
+| for value in dictionary.values():<br />&nbsp;print(value) | Loop through all values in a dictionary | for value in alien.values():<br />&nbsp;print(value) |
+| for key in sorted(dictionery.keys()):<br />&nbsp;print(key) | Loop thourgh all keys in a dictionary in alphabetical order.  | for key in sorted(alien.keys()):<br />&nbsp;print(key) |
+| for value in set(dictionary.values()):<br />&nbsp;print(value) | Loop through all values in a dictionary and check for duplicates | for value in set(alien.values())<br />&nbsp;print(value) |
