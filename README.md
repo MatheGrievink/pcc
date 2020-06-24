@@ -80,4 +80,4 @@ This is my documentation for the stuff I learned in the chapters.
 ## Chapter 6 - Dictonaries
 | Function | Explanation | Example |
 |---|---|---|
-|||
+| dictionary = {'key1': 'value1', 'key2': 'value2'} | Assign mutiple keys and values to a dictionary | alien = {'color': 'green', 'points': 5} |
