@@ -86,3 +86,4 @@ This is my documentation for the stuff I learned in the chapters.
 | dictionary['key3] = 'value4' | Modify a value of a specific key | alien['color'] = 'yellow' |
 | del dictionary['key3'] | Permantently delete a key-value pair | del alien['speed'] |
 | print(dictionary.get('key5', 'No value assigned')) | Print the value of a key. If it does not exist, display 'No value assigned'. | print(alien.get('height', 'Height is not set'))
+| for key, value in dictionary.items()<br />&nbsp;print(f"\nKey: {key}")<br />&nbsp;print(f"\nValue: {value}") | Loop through al key-value pairs of a dictionary. for key, value in alien.items()<br />&nbsp;print(f"\nKey: {key}")<br />&nbsp;print(f"\nValue: {value}") |
