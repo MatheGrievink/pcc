@@ -80,4 +80,9 @@ This is my documentation for the stuff I learned in the chapters.
 ## Chapter 6 - Dictonaries
 | Function | Explanation | Example |
 |---|---|---|
-| dictionary = {'key1': 'value1', 'key2': 'value2'} | Assign mutiple keys and values to a dictionary | alien = {'color': 'green', 'points': 5} |
+| dictionary = {'key1': 'value1', 'key2': 'value2'} | Assign mutiple key-value pairs to a dictionary | alien = {'color': 'green', 'points': 5} |
+| print(dictionary['key1']) | Print the value of a key | print(alien['color'] )
+| dictionary['key3'] = 'value3' | Add a key and value to a dictionary | alien['speed'] = 5 |
+| dictionary['key3] = 'value4' | Modify a value of a specific key | alien['color'] = 'yellow' |
+| del dictionary['key3'] | Permantently delete a key-value pair | del alien['speed'] |
+| print(dictionary.get('key5', 'No value assigned')) | Print the value of a key. If it does not exist, display 'No value assigned'. | print(alien.get('height', 'Height is not set'))
