@@ -1,11 +1,25 @@
-person = { 
+person1 = { 
     'first_name': 'Mathe',
     'last_name': 'Grievink',
-    'age': '20',
+    'age': 20,
     'city': 'Dinxperlo',
 }
 
-print(person['first_name'])
-print(person['last_name'])
-print(person['age'])
-print(person['city'])
+person2 = {
+    'first_name': 'Joelle',
+    'last_name': 'Grievink',
+    'age': 23,
+    'city': 'Dinxperlo',
+}
+
+person3 = {
+    'first_name': 'Ramon',
+    'last_name': 'Grievink',
+    'age': 25,
+    'city': 'Dinxperlo',
+}
+
+people = [person1, person2, person3]
+
+for person in people:
+    print(person)
