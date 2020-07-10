@@ -111,3 +111,10 @@ This is my documentation for the stuff I learned in the chapters.
 | old_list = ['item1', 'item2', 'item3']<br />new_list = []<br /><br />while old_list:<br />&nbsp;&nbsp;current_item = old_list.pop()<br />&nbsp;&nbsp;new_list.append(current_item) | Move items between lists | unconfirmed_users = ['user1', 'user2', 'user3']<br />confirmed_users = []<br /><br />while unconfirmed_users:<br />&nbsp;&nbsp;current_user = unconfirmed_users.pop()<br />&nbsp;&nbsp;confirmed_users.append(current_user) |
 | list = ['item1', 'item2', 'item1', 'item3'] <br />while 'item1' in list:<br />&nbsp;&nbsp;list.remove('item1') | Remove occurrences of an item from a list |  pets = ['dog', 'cat', 'dog', 'fish'] <br />while 'dog' in pets:<br />&nbsp;&nbsp;pets.remove('dog') |
 | dictionary = {}<br/><br/>active=True<br/><br/>while active:<br />&nbsp;&nbsp;key = input("Key")<br />&nbsp;&nbsp;value = input("Value")<br/><br />&nbsp;&nbsp;dictionary[key] = value<br/><br />&nbsp;&nbsp;repeat = input("Fill in another?")<br />&nbsp;&nbsp;if repeat == 'no':<br />&nbsp;&nbsp;&nbsp;&nbsp;active = False | Fill in a dictionary through user input | responses = {}<br/><br/>active=True<br/><br/>while active:<br />&nbsp;&nbsp;Name = input("What is your name?")<br />&nbsp;&nbsp;food = input("What would you like to eat?")<br/><br />&nbsp;&nbsp;reponses[name] = food<br/><br />&nbsp;&nbsp;repeat = input("Fill in another?")<br />&nbsp;&nbsp;if repeat == 'no':<br />&nbsp;&nbsp;&nbsp;&nbsp;active = False |
+
+
+## Chapter 8 - Functions
+| Function | Explanation | Example |
+|---|---|---|
+| def function():<br/>&nbsp;&nbsp;"""What does the function do?"""<br/>&nbsp;&nbsp;print("Hello")<br><br>fucntion() | Define a function and use it |  def welcome():<br/>&nbsp;&nbsp;"""Greet the user"""<br/>&nbsp;&nbsp;print("Hello")<br><br>welcome() |
+| def function(variable):<br/>&nbsp;&nbsp;"""What does the function do?"""<br/>&nbsp;&nbsp;print(variable)<br><br>fucntion("variable") | Define a function and use it |  def welcome(message):<br/>&nbsp;&nbsp;"""Greet the user"""<br/>&nbsp;&nbsp;print(message)<br><br>welcome("Hello!") |
