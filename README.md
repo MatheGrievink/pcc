@@ -118,3 +118,6 @@ This is my documentation for the stuff I learned in the chapters.
 |---|---|---|
 | def function():<br/>&nbsp;&nbsp;"""What does the function do?"""<br/>&nbsp;&nbsp;print("Hello")<br><br>fucntion() | Define a function and use it |  def welcome():<br/>&nbsp;&nbsp;"""Greet the user"""<br/>&nbsp;&nbsp;print("Hello")<br><br>welcome() |
 | def function(variable):<br/>&nbsp;&nbsp;"""What does the function do?"""<br/>&nbsp;&nbsp;print(variable)<br><br>fucntion("variable") | Define a function and use it |  def welcome(message):<br/>&nbsp;&nbsp;"""Greet the user"""<br/>&nbsp;&nbsp;print(message)<br><br>welcome("Hello!") |
+| def fucntion(parameter1, parameter2)<br><br>function('value1', 'value2') | A function with multiple parameters. | def descripe_pet(animal_type, pet_name)<br><br>function('dog', 'demi') |
+| def fucntion(parameter1, parameter2)<br><br>function(parameter1='value1', parameter2='value2') | A function with multiple parameters, called by keywords. | def descripe_pet(animal_type, pet_name)<br><br>function(animal_type='dog', pet_name='demi') |
+| def fucntion(parameter1, parameter2='value2')<br><br>function('value1') | A function with multiple parameters. One default parameter. | def descripe_pet(animal_type, pet_name="Nola")<br><br>function('dog') |
