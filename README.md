@@ -137,3 +137,7 @@ This is my documentation for the stuff I learned in the chapters.
 | from *module* as *alias*<br><br>*alias*.*function* | Import a module as an alias | from pizza as p<br><br>p.make_pizza() |
 | from *module* import *<br><br>*function() | Import all functions in a module | from pizza import *<br><br>make_pizza() |
 
+## Chapter 9 - Classes
+| Function | Explanation | Example |
+|---|---|---|
+||||
