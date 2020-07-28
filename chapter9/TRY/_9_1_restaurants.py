@@ -1,3 +1,4 @@
+
 class Restaurant:
     """A class for a restaurant."""
 
