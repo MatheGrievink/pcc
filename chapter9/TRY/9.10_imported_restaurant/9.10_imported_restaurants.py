@@ -1,4 +1,4 @@
-from _9_1_restaurants import Restaurant
+from restaurants import Restaurant
 
 restaurant = Restaurant("Wamelink", 'Wok')
 restaurant.describe()
